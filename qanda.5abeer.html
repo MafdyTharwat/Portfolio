@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 Common Computer Science Questions and Answers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+
+        .question-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .question {
+            padding: 10px;
+            margin: 5px 0;
+            cursor: pointer;
+            font-weight: bold;
+            background-color: #eee;
+            border-radius: 5px;
+        }
+
+        .answer {
+            display: none;
+            padding: 10px;
+            border-left: 4px solid #0073e6;
+            background-color: #fafafa;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .question:hover {
+            background-color: #ddd;
+        }
+    </style>
+    <script>
+        function toggleAnswer(index) {
+            var answer = document.getElementById("answer" + index);
+            answer.style.display = answer.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+
+<h1>20 Common Computer Science Questions and Answers</h1>
+
+<div class="question-container">
+    <div class="question" onclick="toggleAnswer(1)">1. What is an algorithm?</div>
+    <div class="answer" id="answer1">
+        An algorithm is a set of instructions or steps designed to perform a specific task or solve a particular problem.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(2)">2. What is a data structure?</div>
+    <div class="answer" id="answer2">
+        A data structure is a way of organizing and storing data to enable efficient access and modification.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(3)">3. What is Big-O notation?</div>
+    <div class="answer" id="answer3">
+        Big-O notation is a mathematical representation used to describe the efficiency or complexity of an algorithm.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(4)">4. What is a stack?</div>
+    <div class="answer" id="answer4">
+        A stack is a linear data structure that follows a Last In, First Out (LIFO) principle.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(5)">5. What is a queue?</div>
+    <div class="answer" id="answer5">
+        A queue is a linear data structure that follows a First In, First Out (FIFO) principle.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(6)">6. What is recursion?</div>
+    <div class="answer" id="answer6">
+        Recursion is a programming technique where a function calls itself to solve smaller instances of a problem.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(7)">7. What is a database?</div>
+    <div class="answer" id="answer7">
+        A database is a collection of organized data that can be easily accessed, managed, and updated.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(8)">8. What is SQL?</div>
+    <div class="answer" id="answer8">
+        SQL (Structured Query Language) is a programming language for managing and querying data in relational databases.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(9)">9. What is an operating system?</div>
+    <div class="answer" id="answer9">
+        An operating system is system software that manages computer hardware and software resources.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(10)">10. What is object-oriented programming (OOP)?</div>
+    <div class="answer" id="answer10">
+        Object-oriented programming is a paradigm based on the concept of objects, which contain data and methods.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(11)">11. What is encapsulation in OOP?</div>
+    <div class="answer" id="answer11">
+        Encapsulation is the principle of hiding an object's internal state and requiring all interaction to be performed through methods.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(12)">12. What is inheritance in OOP?</div>
+    <div class="answer" id="answer12">
+        Inheritance is an OOP principle where a class (child) inherits attributes and methods from another class (parent).
+    </div>
+
+    <div class="question" onclick="toggleAnswer(13)">13. What is polymorphism in OOP?</div>
+    <div class="answer" id="answer13">
+        Polymorphism is an OOP concept where objects of different classes can be treated as objects of a common superclass.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(14)">14. What is abstraction in OOP?</div>
+    <div class="answer" id="answer14">
+        Abstraction is an OOP principle that focuses on hiding complex implementation details and exposing only the essential parts of an object.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(15)">15. What is a linked list?</div>
+    <div class="answer" id="answer15">
+        A linked list is a linear data structure where elements are stored in non-contiguous memory, with each node pointing to the next one.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(16)">16. What is a binary tree?</div>
+    <div class="answer" id="answer16">
+        A binary tree is a data structure in which each node has at most two children, often referred to as the left and right child.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(17)">17. What is an array?</div>
+    <div class="answer" id="answer17">
+        An array is a collection of elements identified by index or key, stored in contiguous memory locations.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(18)">18. What is dynamic programming?</div>
+    <div class="answer" id="answer18">
+        Dynamic programming is a technique for solving complex problems by breaking them down into simpler subproblems.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(19)">19. What is machine learning?</div>
+    <div class="answer" id="answer19">
+        Machine learning is a branch of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.
+    </div>
+
+    <div class="question" onclick="toggleAnswer(20)">20. What is artificial intelligence?</div>
+    <div class="answer" id="answer20">
+        Artificial intelligence is the simulation of human intelligence in machines, enabling them to perform tasks that typically require human intelligence.
+    </div>
+
+</div>
+
+</body>
+</html>
